@@ -27,3 +27,12 @@ Build failed with error:
  `xcodebuild -project SampleFramework.xcodeproj -configuration=Release -sdk iphoneos -target SampleFramework install CODE_SIGNING_REQUIRED=NO DSTROOT=""`
  #### Result: 
  Build success 
+
+### To reproduce with GMA 7.66.0
+- in Podfile, change google version to 7.66.0
+- in terminal, type `pod install`
+ - in terminal, type the build command:
+ 
+ `xcodebuild -project SampleFramework.xcodeproj -configuration=Release -sdk iphoneos -target SampleFramework install CODE_SIGNING_REQUIRED=NO DSTROOT=""`
+ #### Result: 
+ Build success 
