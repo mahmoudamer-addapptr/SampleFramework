@@ -8,33 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D6907BFF256D03160010980E /* TestImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D6907BFE256D03160010980E /* TestImport.m */; };
-		D69FB3152567FF74004EC2DF /* SampleFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6B612F72567FE9C00539BCD /* SampleFramework.h */; };
 		D6B612F92567FE9C00539BCD /* SampleFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B612F82567FE9C00539BCD /* SampleFramework.m */; };
 		D6B612FA2567FE9C00539BCD /* SampleFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6B612F72567FE9C00539BCD /* SampleFramework.h */; };
 		F83ABB31A70B384B95A18DA5 /* Pods_SampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82B4CDD4CEB7B77C2B3567D /* Pods_SampleFramework.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D6907CD1256D10CF0010980E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6B612EC2567FE9C00539BCD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6B612F32567FE9C00539BCD;
-			remoteInfo = MOAOAOA;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D69FB3142567FF74004EC2DF /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				D69FB3152567FF74004EC2DF /* SampleFramework.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6B612F22567FE9C00539BCD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,23 +32,16 @@
 		97CDF2C40BA5A22B623131E7 /* Pods-MOAOAOA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOAOAOA.debug.xcconfig"; path = "Target Support Files/Pods-MOAOAOA/Pods-MOAOAOA.debug.xcconfig"; sourceTree = "<group>"; };
 		A82B4CDD4CEB7B77C2B3567D /* Pods_SampleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40281402BE378ED4928D414 /* Pods-SampleFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFramework.debug.xcconfig"; path = "Target Support Files/Pods-SampleFramework/Pods-SampleFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		D68CD6FB257E74B700F916AF /* SampleFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleFramework.podspec; sourceTree = "<group>"; };
 		D6907BE7256D01180010980E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6907BFD256D03160010980E /* TestImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestImport.h; sourceTree = "<group>"; };
 		D6907BFE256D03160010980E /* TestImport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestImport.m; sourceTree = "<group>"; };
-		D69FB3192567FF74004EC2DF /* libAATKit.xcframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAATKit.xcframework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B612F42567FE9C00539BCD /* libSampleFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B612F72567FE9C00539BCD /* SampleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleFramework.h; sourceTree = "<group>"; };
 		D6B612F82567FE9C00539BCD /* SampleFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleFramework.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D69FB3122567FF74004EC2DF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6B612F12567FE9C00539BCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +67,7 @@
 		D6B612EB2567FE9C00539BCD = {
 			isa = PBXGroup;
 			children = (
+				D68CD6FB257E74B700F916AF /* SampleFramework.podspec */,
 				D6B612F62567FE9C00539BCD /* SampleFramework */,
 				D6B612F52567FE9C00539BCD /* Products */,
 				395BDB0EDDE70BB1F158A843 /* Pods */,
@@ -106,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				D6B612F42567FE9C00539BCD /* libSampleFramework.a */,
-				D69FB3192567FF74004EC2DF /* libAATKit.xcframework.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,24 +106,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D69FB30E2567FF74004EC2DF /* AATKit.xcframework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D69FB3162567FF74004EC2DF /* Build configuration list for PBXNativeTarget "AATKit.xcframework" */;
-			buildPhases = (
-				D69FB3102567FF74004EC2DF /* Sources */,
-				D69FB3122567FF74004EC2DF /* Frameworks */,
-				D69FB3142567FF74004EC2DF /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6907CD2256D10CF0010980E /* PBXTargetDependency */,
-			);
-			name = AATKit.xcframework;
-			productName = MOAOAOA;
-			productReference = D69FB3192567FF74004EC2DF /* libAATKit.xcframework.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		D6B612F32567FE9C00539BCD /* SampleFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B612FD2567FE9C00539BCD /* Build configuration list for PBXNativeTarget "SampleFramework" */;
@@ -197,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				D6B612F32567FE9C00539BCD /* SampleFramework */,
-				D69FB30E2567FF74004EC2DF /* AATKit.xcframework */,
 			);
 		};
 /* End PBXProject section */
@@ -228,13 +181,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D69FB3102567FF74004EC2DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6B612F02567FE9C00539BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,51 +192,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D6907CD2256D10CF0010980E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6B612F32567FE9C00539BCD /* SampleFramework */;
-			targetProxy = D6907CD1256D10CF0010980E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		D69FB3172567FF74004EC2DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57VR5RFHYB;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
-					"\"${PODS_ROOT}/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current\"",
-					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
-					"\"${PODS_ROOT}/GoogleUserMessagingPlatform/Frameworks/Release\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleMobileAds\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/UserMessagingPlatform\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FR/**",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D69FB3182567FF74004EC2DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57VR5RFHYB;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		D6B612FB2567FE9C00539BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,15 +345,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D69FB3162567FF74004EC2DF /* Build configuration list for PBXNativeTarget "AATKit.xcframework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D69FB3172567FF74004EC2DF /* Debug */,
-				D69FB3182567FF74004EC2DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D6B612EF2567FE9C00539BCD /* Build configuration list for PBXProject "SampleFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
